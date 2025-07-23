@@ -72,3 +72,16 @@ html {
   align-items: center;
   gap: 10px;
 }
+
+@media screen and (max-width: 576px) {
+  /* mobile nav section */
+  .mobile-display-no {
+    display: none;
+  }
+  .navbar {
+    margin: 13px 16px;
+  }
+  .nav-logo {
+    max-width: 63px;
+  }
+}
