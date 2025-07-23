@@ -43,6 +43,15 @@ html {
   font-weight: 700;
   font-size: 5rem;
 }
+.btn-primary {
+  font-family: "Inter", sans-serif;
+  font-size: 1.6rem;
+  color: #ffffff;
+  background-color: #e95a08;
+  padding: 26px 50px;
+  font-weight: 600;
+  border: none;
+}
 
 /* nav section */
 .navbar {
@@ -77,6 +86,9 @@ html {
   max-width: 1140px;
   margin: 0 auto;
   margin-top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
 }
 
 /* Banner section */
@@ -97,6 +109,52 @@ html {
   color: #e95a08;
 }
 
+/* plants section */
+.plants-text {
+  text-align: center;
+}
+.plants-title {
+  margin-bottom: 16px;
+}
+.plants-description {
+  color: rgba(0, 0, 0, 0.5);
+
+  max-width: 888px;
+  margin: 0 auto;
+  margin-bottom: 49px;
+}
+/* plant cards */
+.btn-plant {
+  padding-top: 19px;
+  padding-bottom: 19px;
+}
+.plant-card {
+  display: flex;
+  flex-direction: column;
+  max-width: 270px;
+  gap: 30px;
+}
+.plant-card-text {
+  text-align: center;
+}
+.plant-card-title,
+.plant-card-price {
+  font-family: "Inter", sans-serif;
+  font-size: 2.2rem;
+  font-weight: 500;
+}
+.plant-card-price {
+  font-weight: 700;
+}
+.plant-cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 30px;
+  column-gap: 20px;
+}
+.plant-card-img {
+  width: 100%;
+}
 @media screen and (max-width: 576px) {
   /* mobile nav section */
   .mobile-display-no {
@@ -122,14 +180,25 @@ html {
   .banner-text {
     margin: 0 16px;
   }
-  .banner-title {
+  .banner-title,
+  .plants-title {
     font-size: 2.4rem;
   }
-  .banner-description {
+  .banner-description,
+  .plants-description {
     font-size: 1.4rem;
   }
   .banner-flower {
     width: 100%;
     max-width: 393px;
+  }
+
+  /* mobile plant section */
+  .plant-cards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 16px;
+  }
+  .plants-description {
+    max-width: 90%;
   }
 }
