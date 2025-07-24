@@ -206,7 +206,7 @@ html {
 
 .latest-deal-bloom {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url("../assets/deal-bloom.png");
+    url(../assets/deal-bloom.png);
   border-radius: 14px;
 
   background-size: cover;
