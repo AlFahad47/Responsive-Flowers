@@ -51,6 +51,7 @@ html {
   padding: 18px 50px;
   font-weight: 600;
   border: none;
+  cursor: pointer;
 }
 
 /* nav section */
@@ -294,7 +295,6 @@ html {
 }
 
 .input-box {
-  width: calc(100% - 610px);
   min-width: 321px;
   max-width: 1140px;
   display: flex;
