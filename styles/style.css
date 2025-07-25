@@ -198,9 +198,7 @@ html {
 .latest-deal-description {
   color: rgba(0, 0, 0, 0.5);
 }
-.latest-deal-text {
-  margin-bottom: 51px;
-}
+
 .latest-deal-cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -416,6 +414,9 @@ html {
 
   /* mobile latest deal section */
 
+  .latest-deal-text {
+    margin-bottom: 51px;
+  }
   .latest-deal-cards {
     grid-template-columns: repeat(1, 1fr);
     height: auto;
