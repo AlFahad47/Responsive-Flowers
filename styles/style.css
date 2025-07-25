@@ -195,6 +195,9 @@ html {
 .latest-deal-title {
   margin-bottom: 16px;
 }
+.latest-deal-description {
+  color: rgba(0, 0, 0, 0.5);
+}
 .latest-deal-text {
   margin-bottom: 51px;
 }
@@ -380,7 +383,6 @@ html {
   .plants-lover-list-item,
   .latest-deal-description {
     font-size: 1.4rem;
-    color: rgba(0, 0, 0, 0.5);
   }
   .banner-flower {
     width: 100%;
