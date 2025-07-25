@@ -292,11 +292,13 @@ html {
   font-family: "Inter", sans-serif;
   font-size: 1.6rem;
   color: rgba(0, 0, 0, 0.5);
+  width: 74%;
 }
 
 .input-box {
   min-width: 321px;
   max-width: 1140px;
+  width: 57%;
   display: flex;
   justify-content: space-between;
   align-items: center;
